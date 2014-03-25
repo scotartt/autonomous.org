@@ -26,7 +26,7 @@ body.loading * {
 body, textarea, select {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
-	font-size: 20pt;
+	font-size: 18pt;
 	line-height: 1.75em;
 	color: #39454b;
 	letter-spacing: 0.5px;
@@ -43,7 +43,7 @@ input .baaffa {
 	font-size: 20%;
 }
 .larger {
-	font-size: 200%;
+	font-size: 250%;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -73,7 +73,6 @@ em, i {
 
 a {
 	color: #98c593;
-
 	-moz-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -422,6 +421,15 @@ table.default tbody {
 	transition: all 0.2s ease-in-out;
 }
 
+a.button.up {
+	display: block;
+	height: 2em;
+	line-height: 2em;
+    background-color: #333333;
+	border: solid 2px #e5e6e7;
+	color: inherit;
+}
+
 .button.down {
 	width: 5em;
 	height: 5em;
@@ -577,6 +585,12 @@ table.default tbody {
 }
 
 .main.style3 {
+	text-align: center;
+	padding: 6em 0 6em 0;
+}
+
+.container.style3 {
+	color: #ededed;
 	text-align: center;
 	padding: 6em 0 6em 0;
 }
@@ -1160,7 +1174,7 @@ body {
 	background-position: center center;
 }
 #work1a {
-	background:  url('../images/work3.jpg');
+	background:  url('../images/work5.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
@@ -1482,3 +1496,4 @@ body.touch .poptrox-popup .nav-previous,
 body.touch .poptrox-popup .closer {
 	opacity: 1.0 !important;
 }
+
